@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,600,0,0">
+    <link rel="icon" type="image/png" href="sos_logo.png">
+    <link rel="apple-touch-icon" href="sos_logo.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,7 +34,20 @@
 
             <nav class="main-nav" data-nav>
                 <a href="#soluciones">Soluciones</a>
-                <a href="#rubros">Rubros</a>
+                <div class="nav-item has-dropdown">
+                    <button class="nav-dropdown-trigger" type="button" aria-expanded="false" aria-haspopup="true" data-dropdown-trigger>
+                        Rubros
+                        <svg class="dropdown-caret" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="nav-dropdown" data-dropdown>
+                        <a href="rubros/kioscos.html">Kioscos</a>
+                        <a href="rubros/supermercados.html">Supermercados</a>
+                        <a href="rubros/almacenes.html">Almacenes</a>
+                        <a href="rubros/indumentaria.html">Indumentaria</a>
+                        <a href="rubros/ferreterias.html">Ferreterías</a>
+                        <a href="rubros/dieteticas.html">Dietéticas y minoristas</a>
+                    </div>
+                </div>
                 <a href="#planes">Planes</a>
                 <a href="#nosotros">Nosotros</a>
                 <a href="#contacto">Contacto</a>
